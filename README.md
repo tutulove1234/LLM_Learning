@@ -1,3 +1,6 @@
-# LearningDocs
+# LLM Learning 
 
-This repo is used for recording the llm learning docs
+- recording the llm learning docs
+- experimental demos
+- learning summary
+
