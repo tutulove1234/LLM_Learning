@@ -1,0 +1,214 @@
+{
+  "analysis_date": "2026-10-22",
+  "timezone": "Asia/Shanghai",
+  "main": {
+    "repo": "deepseek-ai/DeepInfer",
+    "revision": "9bd9cf243fc53ef9afbf8f04d391d989117d6ab9"
+  },
+  "direct_submodules": [
+    {
+      "name": "FlashMLA",
+      "repo": "deepseek-ai/FlashMLA",
+      "revision": "2e5429fc5653bab6e081f09477126f731882a6a9",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\FlashMLA",
+      "version_basis": "DeepInfer gitlink; recursive checkout completed"
+    },
+    {
+      "name": "DeepGEMM",
+      "repo": "deepseek-ai/DeepGEMM",
+      "revision": "1fc9c66975ee322d628b3288534ca0e9ce12a64d",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\DeepGEMM",
+      "version_basis": "DeepInfer gitlink; recursive checkout completed"
+    },
+    {
+      "name": "DeepEP",
+      "repo": "deepseek-ai/DeepEP",
+      "revision": "f6aa38fe06cd4a0489e7730365d4e0114970a2f3",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\DeepEP",
+      "version_basis": "DeepInfer gitlink; recursive checkout completed"
+    },
+    {
+      "name": "DeepSelect",
+      "repo": "deepseek-ai/DeepSelect",
+      "revision": "bfa4507d935f17ebfc3d0f00ff7d3c9a4d0e5c18",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\DeepSelect",
+      "version_basis": "DeepInfer gitlink; recursive checkout completed"
+    },
+    {
+      "name": "DeepGEMM-Ascend",
+      "repo": "deepseek-ai/DeepGEMM-Ascend",
+      "revision": "3a35326271b069b8b5bf1a754435acd6cc91575b",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\DeepGEMM-Ascend",
+      "version_basis": "DeepInfer gitlink; recursive checkout completed"
+    },
+    {
+      "name": "DeepEP-Ascend",
+      "repo": "deepseek-ai/DeepEP-Ascend",
+      "revision": "3b25377d04b24fc6154698ded78a2bcb2c59afff",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\DeepEP-Ascend",
+      "version_basis": "DeepInfer gitlink; recursive checkout completed"
+    }
+  ],
+  "additional_sources": [
+    {
+      "name": "TileKernels",
+      "repo": "deepseek-ai/TileKernels",
+      "version_basis": "source snapshot; no v2.1.0 remote tag available; exact PyPI source mapping unverified",
+      "local_path": "E:\\Codes\\DeepInfer\\.cache\\external-analysis\\TileKernels",
+      "revision": "c1cf914a82e6901c679445f872051ce44ac2cc63"
+    },
+    {
+      "name": "tilelang",
+      "repo": "tile-ai/tilelang",
+      "version_basis": "v0.1.15",
+      "local_path": "E:\\Codes\\DeepInfer\\.cache\\external-analysis\\tilelang",
+      "revision": "a35f8ddf45eba16c21211ec8822d56ce5363036f"
+    },
+    {
+      "name": "xgrammar",
+      "repo": "mlc-ai/xgrammar",
+      "version_basis": "v0.2.2",
+      "local_path": "E:\\Codes\\DeepInfer\\.cache\\external-analysis\\xgrammar",
+      "revision": "4d145cc13d878c751ebeed36af1c013074be76bc"
+    },
+    {
+      "name": "deepseek-recipe",
+      "repo": "deepseek-ai/deepseek-recipe",
+      "version_basis": "source snapshot",
+      "local_path": "E:\\Codes\\DeepInfer\\.cache\\external-analysis\\deepseek-recipe",
+      "revision": "935817c66f5d6e64838f419692545f06787e485f"
+    },
+    {
+      "name": "3FS",
+      "repo": "deepseek-ai/3FS",
+      "version_basis": "source snapshot",
+      "local_path": "E:\\Codes\\DeepInfer\\.cache\\external-analysis\\3FS",
+      "revision": "22fca04564c7cc230fd8b9523b8b92864e1dad47"
+    },
+    {
+      "name": "vllm",
+      "repo": "vllm-project/vllm",
+      "version_basis": "acknowledgment/reference snapshot",
+      "local_path": "E:\\Codes\\DeepInfer\\.cache\\external-analysis\\vllm",
+      "revision": "9d61ade7f657833df27e43c4561455523c78c8fb"
+    },
+    {
+      "name": "sglang",
+      "repo": "sgl-project/sglang",
+      "version_basis": "acknowledgment/reference snapshot",
+      "local_path": "E:\\Codes\\DeepInfer\\.cache\\external-analysis\\sglang",
+      "revision": "b453996b7dcd20c6b1927c2c66e240a236be2189"
+    },
+    {
+      "name": "TensorRT-LLM",
+      "repo": "NVIDIA/TensorRT-LLM",
+      "version_basis": "acknowledgment/reference snapshot; Git objects retrieved; full worktree checkout interrupted due Windows long paths/LFS; README and llmapi inspected with git show",
+      "local_path": "E:\\Codes\\DeepInfer\\.cache\\external-analysis\\TensorRT-LLM",
+      "revision": "af3e5eb257ff49cf31cb8ce441d46aed585e902d"
+    }
+  ],
+  "recursive_submodules": [
+    {
+      "repo": "deepseek-ai/DeepJIT",
+      "revision": "cba802df081985141eeee36803685775c183a047",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\DeepEP\\third-party\\deep_jit",
+      "version_basis": "successful recursive submodule checkout output"
+    },
+    {
+      "repo": "deepseek-ai/DeepJIT",
+      "revision": "2efdab421e1cfb17fe8bc20e11ca72aa6d0e6c43",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\DeepGEMM\\third-party\\deep_jit",
+      "version_basis": "successful recursive submodule checkout output"
+    },
+    {
+      "repo": "deepseek-ai/DeepJIT",
+      "revision": "65f513952b8771408a19202f65e36398522db6db",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\DeepEP-Ascend\\third-party\\deep_jit",
+      "version_basis": "successful recursive submodule checkout output"
+    },
+    {
+      "repo": "deepseek-ai/DeepJIT",
+      "revision": "65f513952b8771408a19202f65e36398522db6db",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\DeepGEMM-Ascend\\third-party\\deep-jit",
+      "version_basis": "successful recursive submodule checkout output"
+    },
+    {
+      "repo": "deepseek-ai/clangd-ascend",
+      "revision": "f407eca30e07e647ce2e556f9b08e145b65362c7",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\DeepEP-Ascend\\third-party\\clangd-ascend",
+      "version_basis": "successful recursive submodule checkout output"
+    },
+    {
+      "repo": "deepseek-ai/clangd-ascend",
+      "revision": "f407eca30e07e647ce2e556f9b08e145b65362c7",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\DeepGEMM-Ascend\\third-party\\clangd-ascend",
+      "version_basis": "successful recursive submodule checkout output"
+    },
+    {
+      "repo": "Neargye/magic_enum",
+      "revision": "b233b96e49d371bad00300f59b5ba581100b8745",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\DeepGEMM-Ascend\\third-party\\magic_enum",
+      "version_basis": "successful recursive submodule checkout output"
+    },
+    {
+      "repo": "NVIDIA/cutlass",
+      "revision": "f3fde58372d33e9a5650ba7b80fc48b3b49d40c8",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\DeepGEMM\\third-party\\cutlass",
+      "version_basis": "successful recursive submodule checkout output"
+    },
+    {
+      "repo": "NVIDIA/cutlass",
+      "revision": "ae6bccf341fb4410241f696ba06873023d5ce4ed",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\DeepSelect\\csrc\\3rdparty\\cutlass",
+      "version_basis": "successful recursive submodule checkout output"
+    },
+    {
+      "repo": "NVIDIA/cutlass",
+      "revision": "4faf1a1568cf1e4ad8ff71846a13e16f2a6a6f6b",
+      "local_path": "E:\\Codes\\DeepInfer\\vendor\\FlashMLA\\csrc\\3rdparty\\cutlass",
+      "version_basis": "successful recursive submodule checkout output"
+    }
+  ],
+  "model_config": {
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017/blob/main/config.json",
+    "displayed_commit": "1bae0e1",
+    "weights_downloaded": false
+  },
+  "verification": {
+    "method": "static source analysis",
+    "model_executed": false,
+    "hardware_benchmarked": false
+  },
+  "documentation_revision": {
+    "date": "2026-10-22",
+    "scope": "Replace chapter 13 deployment with scheduling principles; remove HTML tags; append cross-referenced glossary",
+    "scheduling_subsections": 27,
+    "glossary_entries": 224,
+    "glossary_groups": 10,
+    "hardware_execution": "Static source analysis; no model inference or performance measurement performed",
+    "additional_source_ids": [
+      "S59",
+      "S60",
+      "S61",
+      "S62",
+      "S63",
+      "S64",
+      "S65",
+      "S66",
+      "S67",
+      "S68",
+      "S69",
+      "S70",
+      "S71",
+      "S72",
+      "S73",
+      "S74",
+      "S75",
+      "D16",
+      "D17",
+      "D18",
+      "D19",
+      "D20"
+    ]
+  }
+}
